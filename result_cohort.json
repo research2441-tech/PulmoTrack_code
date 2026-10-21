@@ -1,0 +1,316 @@
+{
+ "train": {
+  "patients": 180,
+  "exams": 540,
+  "lesions": 1777,
+  "new": 155,
+  "resolved": 118,
+  "sites": {
+   "A": 177,
+   "C": 175,
+   "B": 188
+  },
+  "kinds": {
+   "ggo": 577,
+   "solid": 842,
+   "partsolid": 358
+  },
+  "vol_med": 12.0,
+  "vol_iqr": [
+   4.05,
+   33.3
+  ],
+  "dt_med": 100.2717787402373,
+  "process": {
+   "stable": 57,
+   "progressive": 60,
+   "responding": 63
+  },
+  "contrast": 0.34814814814814815,
+  "site_switch": 76,
+  "small": 339,
+  "les_per_exam": 3.2907407407407407
+ },
+ "val": {
+  "patients": 30,
+  "exams": 90,
+  "lesions": 242,
+  "new": 16,
+  "resolved": 11,
+  "sites": {
+   "A": 31,
+   "B": 31,
+   "C": 28
+  },
+  "kinds": {
+   "partsolid": 50,
+   "solid": 125,
+   "ggo": 67
+  },
+  "vol_med": 18.225,
+  "vol_iqr": [
+   6.75,
+   38.175
+  ],
+  "dt_med": 104.18754835523374,
+  "process": {
+   "progressive": 11,
+   "stable": 11,
+   "responding": 8
+  },
+  "contrast": 0.34444444444444444,
+  "site_switch": 9,
+  "small": 25,
+  "les_per_exam": 2.688888888888889
+ },
+ "cal": {
+  "patients": 90,
+  "exams": 270,
+  "lesions": 869,
+  "new": 68,
+  "resolved": 68,
+  "sites": {
+   "A": 90,
+   "C": 93,
+   "B": 87
+  },
+  "kinds": {
+   "partsolid": 200,
+   "ggo": 271,
+   "solid": 398
+  },
+  "vol_med": 11.7,
+  "vol_iqr": [
+   4.35,
+   28.799999999999997
+  ],
+  "dt_med": 107.7365170302468,
+  "process": {
+   "stable": 27,
+   "responding": 36,
+   "progressive": 27
+  },
+  "contrast": 0.32222222222222224,
+  "site_switch": 47,
+  "small": 143,
+  "les_per_exam": 3.2185185185185183
+ },
+ "test": {
+  "patients": 60,
+  "exams": 180,
+  "lesions": 575,
+  "new": 64,
+  "resolved": 26,
+  "sites": {
+   "A": 68,
+   "B": 57,
+   "C": 55
+  },
+  "kinds": {
+   "ggo": 169,
+   "solid": 290,
+   "partsolid": 116
+  },
+  "vol_med": 12.45,
+  "vol_iqr": [
+   4.425,
+   36.825
+  ],
+  "dt_med": 103.96389481318093,
+  "process": {
+   "progressive": 28,
+   "responding": 17,
+   "stable": 15
+  },
+  "contrast": 0.31666666666666665,
+  "site_switch": 22,
+  "small": 89,
+  "les_per_exam": 3.1944444444444446
+ },
+ "extD": {
+  "patients": 80,
+  "exams": 240,
+  "lesions": 817,
+  "new": 58,
+  "resolved": 44,
+  "sites": {
+   "D": 240
+  },
+  "kinds": {
+   "partsolid": 172,
+   "solid": 393,
+   "ggo": 252
+  },
+  "vol_med": 12.0,
+  "vol_iqr": [
+   3.9,
+   28.05
+  ],
+  "dt_med": 102.0280062304366,
+  "process": {
+   "progressive": 19,
+   "responding": 36,
+   "stable": 25
+  },
+  "contrast": 0.5291666666666667,
+  "site_switch": 0,
+  "small": 145,
+  "les_per_exam": 3.404166666666667
+ },
+ "extE": {
+  "patients": 80,
+  "exams": 240,
+  "lesions": 807,
+  "new": 79,
+  "resolved": 47,
+  "sites": {
+   "E": 240
+  },
+  "kinds": {
+   "ggo": 207,
+   "solid": 425,
+   "partsolid": 175
+  },
+  "vol_med": 10.799999999999999,
+  "vol_iqr": [
+   3.9,
+   29.625
+  ],
+  "dt_med": 103.39740887967994,
+  "process": {
+   "stable": 23,
+   "responding": 28,
+   "progressive": 29
+  },
+  "contrast": 0.0,
+  "site_switch": 0,
+  "small": 146,
+  "les_per_exam": 3.3625
+ },
+ "ssl": {
+  "patients": 400,
+  "exams": 400,
+  "lesions": 1274,
+  "new": 0,
+  "resolved": 0,
+  "sites": {
+   "A": 134,
+   "B": 133,
+   "C": 133
+  },
+  "kinds": {
+   "solid": 655,
+   "partsolid": 246,
+   "ggo": 373
+  },
+  "vol_med": 18.599999999999998,
+  "vol_iqr": [
+   7.6499999999999995,
+   34.949999999999996
+  ],
+  "dt_med": 0,
+  "process": {
+   "progressive": 136,
+   "responding": 159,
+   "stable": 105
+  },
+  "contrast": 0.3325,
+  "site_switch": 0,
+  "small": 76,
+  "les_per_exam": 3.185
+ },
+ "val2": {
+  "patients": 60,
+  "exams": 180,
+  "lesions": 584,
+  "new": 70,
+  "resolved": 35,
+  "sites": {
+   "A": 54,
+   "B": 70,
+   "C": 56
+  },
+  "kinds": {
+   "partsolid": 123,
+   "solid": 336,
+   "ggo": 125
+  },
+  "vol_med": 12.45,
+  "vol_iqr": [
+   4.2,
+   31.6875
+  ],
+  "dt_med": 97.81243994354561,
+  "process": {
+   "stable": 15,
+   "responding": 22,
+   "progressive": 23
+  },
+  "contrast": 0.3888888888888889,
+  "site_switch": 19,
+  "small": 111,
+  "les_per_exam": 3.2444444444444445
+ },
+ "cal2": {
+  "patients": 150,
+  "exams": 450,
+  "lesions": 1559,
+  "new": 130,
+  "resolved": 102,
+  "sites": {
+   "A": 151,
+   "B": 154,
+   "C": 145
+  },
+  "kinds": {
+   "solid": 784,
+   "ggo": 479,
+   "partsolid": 296
+  },
+  "vol_med": 11.549999999999999,
+  "vol_iqr": [
+   4.2,
+   31.125
+  ],
+  "dt_med": 107.77337453120956,
+  "process": {
+   "responding": 52,
+   "progressive": 49,
+   "stable": 49
+  },
+  "contrast": 0.3422222222222222,
+  "site_switch": 49,
+  "small": 277,
+  "les_per_exam": 3.4644444444444447
+ },
+ "dense": {
+  "patients": 45,
+  "exams": 135,
+  "lesions": 1358,
+  "new": 100,
+  "resolved": 79,
+  "sites": {
+   "A": 45,
+   "B": 43,
+   "C": 47
+  },
+  "kinds": {
+   "ggo": 435,
+   "solid": 693,
+   "partsolid": 230
+  },
+  "vol_med": 4.05,
+  "vol_iqr": [
+   1.95,
+   8.7
+  ],
+  "dt_med": 105.36738543313749,
+  "process": {
+   "dense": 45
+  },
+  "contrast": 0.31851851851851853,
+  "site_switch": 22,
+  "small": 510,
+  "les_per_exam": 10.059259259259258
+ }
+}
